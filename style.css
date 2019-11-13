@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;   
+}
+
+.container{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.heading{
+  font-size: 30px;
+  font-weight: 200;  
+    
+}
+
+.subheading{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.tagline{
+    font-size: 14px;
+    font-weight: 200;
+}
+
+/* cards */
+.cards {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.card-text {
+    width: 75%;
+    color: hsl(229, 6%, 66%);
+}
+
+.card1{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-body1{
+    border-top: 3px solid hsl(0, 78%, 62%);
+    padding: 8%;
+    border-radius: 2%;
+    background-color: whitesmoke;
+    margin-right: 10%;
+}
+.card-body2{
+    border-top: 3px solid hsl(180,62%,55%);
+    padding: 8%;
+    border-radius: 2%;
+    background-color: whitesmoke;
+    margin-right: 10%;
+}
+.card-body3{
+    border-top: 3px solid hsl(34, 97%, 64%);
+    padding: 8%;
+    border-radius: 2%;
+    background-color: whitesmoke;
+    margin-right: 10%;
+}
+.card-body4{
+    border-top: 3px solid hsl(212, 86%, 64%);
+    padding: 8%;
+    border-radius: 2%;
+    background-color: whitesmoke;
+    margin-right: 10%;
+}
+
+@media (max-width: 375px) {
+
+    body{
+        padding: 5%;
+    }
+    .cards1{
+        flex-direction: column;
+    }
+
+    .card-text{
+        width: 100%;
+    }
+}
